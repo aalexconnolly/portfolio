@@ -1,0 +1,431 @@
+body .homeicon1:active{
+background-color: #FCF7ED;
+}
+
+
+/*//////////////PAPER///////////////////*/
+.paper{
+    background-image: url(paper-background.png);
+    background-repeat: repeat-y;
+        cursor: url('cursor_drawn.png'), default !important;
+}
+.paper-nav{
+    width: 100vw;
+}
+.paper-work{
+    padding-top:10px;
+    max-width: 68px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+}
+.paper-work:hover{
+    padding-top:10px;
+    max-width: 72px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+}
+.paper-about{
+    padding-top:10px;
+    max-width: 68px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+}
+.paper-back{
+    padding-top:10px;
+    max-width: 168px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+}
+.paper-alex{
+    padding-top:10px;
+    max-width: 100px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+}
+.newsbar{
+    overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    z-index: 2;
+}
+.newsbar-img{
+    width: 110vw;
+}
+/*//////////////PAPER///////////////////*/
+
+
+.note-polaroid-01{
+    max-width: 260px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+.arrow-polaroid-01{
+    max-width: 70px;
+}
+.pp-row-01{
+    margin-top: -70px;
+}
+
+
+
+
+/*/////////////////////NAV//////////////////*/
+.nav-type{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 200;
+    font-size: 16px;
+    font-variant: small-caps;
+    text-decoration: none;
+    position: fixed;
+    margin-top: 10px;
+}
+.fixed{
+    position: fixed;
+}
+.navbox{
+    width: 100vw;
+    height: 58px;
+    position: fixed;
+    z-index: 1;
+}
+.nav-type:hover{
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-alex:hover{
+    text-decoration: none;
+}
+.nav-alex{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 30px;
+    font-variant: small-caps;
+    position: fixed
+}
+.div-nav-alex{
+    margin-top: -5px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    padding-bottom: 5px;
+    z-index: 2;
+}
+/*/////////////////////NAV//////////////////*/
+
+
+
+
+
+
+.pad100{
+    padding-top: 100px;
+}
+ .beige{
+        background-color: #FCF7ED;
+    }
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, -0px); }    
+}
+.homeicon1{
+    max-width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeicon2{
+    max-width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeicon3{
+    max-width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    color: black !important;
+}
+.carousel-inner{
+    height: 90vh;
+}
+.blurpolaroid{
+    max-width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;
+}
+/*.carousel-control-prev{
+    width: 40vw;
+    margin-left: -200px;
+    overflow: hidden;
+    cursor: url('prev.png'), default !important;
+}
+.carousel-control-next{
+    width: 40vw;
+    margin-right: -200px;
+    overflow: hidden;
+    cursor: url('next.png'), default !important;
+}*/
+
+h1{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 70px;
+    font-variant: small-caps;
+}
+h2{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+h3{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 14px;
+    font-variant: small-caps;
+    margin-bottom: 0px;
+}
+p1{
+    font-family: Helvetica; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+    line-height: 24px;
+}
+p2{
+    font-family: Helvetica; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+    line-height: 14px;
+}
+.fontblack{
+    color: black;
+}
+.polaroidicon{
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.polaroidpara{
+    max-width: 435px;
+}
+.blur1{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+}
+.polaroidicondiv{
+    margin-top: 120px;
+    padding-left: 40px;
+}
+.minirow{
+    margin-top: -50px;
+}
+.pad35{
+    padding-bottom: 35px;
+}
+
+.polaroidicondivsm{
+    display: none;
+}
+
+.hide-when-big{
+    display: none;
+}
+
+
+/*/////////////////////MEDIA QUERIES 768//////////////////*/
+
+@media only screen and (max-width: 768px){
+    .hide-when-big{
+    display: block;
+}
+    .polaroidicon2{
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-top: -50px;
+}
+    .hide-when-small{
+        display: none;
+    }
+    .minirow{
+        max-width: 435px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .polaroidpara{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h1sm{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+.burger{
+        position: fixed;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 47vw;
+    padding-right: 47vw;
+    z-index: 1;
+    }
+
+.overlay {
+    height: 0%;
+    width: 100vw;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;  
+    color: white;
+}
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+    display: block;
+    transition: 0.3s;    
+}
+  h4{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 24px;
+    font-variant: small-caps;
+    }
+    .menubutton{
+        color: white;
+        font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 22px;
+    font-variant: small-caps;
+        padding-top: 10px;
+    }
+    .closebtn{
+        color: white !important;
+        text-align: center;
+        margin-top: 15vh;
+        position: relative;
+        font-family: 'Roboto Mono', monospace; 
+        font-weight: 700;
+        font-size: 24px;
+        font-variant: small-caps;
+    }
+        .menu{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+/*/////////////////////MEDIA QUERIES 768//////////////////*/
+
+
+
+
+
+
+
+
+/*/////////////////////MEDIA QUERIES 470//////////////////*/
+
+@media only screen and (max-width: 470px){
+    .burger{
+        position: fixed;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 43vw;
+    padding-right: 43vw;
+    }
+    .menubutton{
+        color: white;
+        font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 20px;
+    font-variant: small-caps;
+    }
+    h1{
+    font-size: 54px;
+}
+h2{
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 12px;
+}
+p1{
+    font-size: 14px; 
+    line-height: 20px;
+}
+p2{
+    font-size: 12px; 
+    line-height: 14px;
+}
+    .minirow{
+        max-width: 335px;
+    }
+    .polaroidpara{
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h1sm{
+        max-width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .polaroidicon2{
+    max-width: 110px;
+    padding-bottom: 20px;
+    margin-top: -40px;
+}
+    .blur1{
+    max-width: 150px;
+    opacity: .5;  
+}
+    h4{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 24px;
+    font-variant: small-caps;
+    }
+}
+
+/*/////////////////////MEDIA QUERIES 470//////////////////*/
+
