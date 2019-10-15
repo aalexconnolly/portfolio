@@ -51,11 +51,19 @@
                 </div>
             </div>
             
-            <div class="newsbar">
+            
+            
+            
+            
+            <div class="newsbar" onclick="dissapear()" id="dissapearClick">
+                
                 <img src=images/backup-polaroid/behind_the_scenes_bar.gif class="newsbar-img">
+              
+                
             </div>
             
             
+             <div class="note-drawn-1"> <img src="images/backup-notes/dissapear-note.gif" class="smaller"></div>
             
             
             
@@ -83,22 +91,31 @@
             </div>
                 </div>-->
           <!--/////////////BURGER//////////////-->
+           
+            <div class="pad100"></div>
+            <div class="pad50"></div>
             
+            <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-12 col-12 polaroidpara">
+                <img src="images/backup-polaroid/title-polaroid.png" class="img-fluid">
+                <img src="images/backup-polaroid/para_polaroid_01.png" class="img-fluid">
+            </div>
             
-            
-          <div class="row">
-              <div class="">
+            <div class="col-xl-4 col-lg-5 col-md-5 polaroidicondiv-drawn hide-when-small">
+                 <div class="">
                   <img src="images/backup-polaroid/beige-splash.svg" class="splash1">
                   <img src="images/backup-polaroid/icon_polaroid.png" class="drawn-polaroid-icon">
               </div>
-            </div>  
+            </div>
+            </div>
+            
+            
+          
             
             
             
             
-            
-            
-            
+   
             
             <div class="pad100"></div>
             
@@ -109,16 +126,14 @@
            </div>
             </div>  
              <div class="row">
-            <div class="col-8 offset-2">
+            <div class="col-8 offset-2 click" onclick="showNote()">
                 <img src="images/backup-polaroid/collage.png" class="img-fluid">
            </div>
             </div> 
-            <div class="row pp-row-01">
-                <div class="col-1 offset-7">
+            <div class="row pp-row-01" id="note1">
+                <div class="col-5 offset-7">
                     <img src="images/arrow_07.png" class="arrow-polaroid-01">
-                </div>
-                <div class="col-3">
-                    <img src="images/backup-polaroid/note_04.png" class="note-polaroid-01">
+                     <img src="images/backup-polaroid/note_04.png" class="note-polaroid-01">
                 </div>
             </div>
           
@@ -192,7 +207,42 @@
             </div>
             
             
+            <div class="pad100"></div>
+            <div class="pad100"></div>
             
+            
+            
+            
+            
+            <div class="row no-gutters">
+                <div class="col-4 offset-2">
+                    <img src="images/backup-polaroid/polaroid-overlap-05.gif" class="img-fluid">
+                </div>
+                 <div class="col-4">
+                    <img src="images/backup-polaroid/polaroid-overlap-06.gif" class="img-fluid">
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            <div class="pad100"></div>
+            <div class="pad100"></div>
+            
+            
+             <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-6 previous">
+            <a href="#"><img src="images/backup-notes/drawn-prev.png" class="prev-polaroid">
+                <img src="images/backup-notes/next-note-auto.png" class="autopro-note"></a>
+        </div> 
+        
+        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 next">
+            <a href="#"><h2 class="next-polaroid">NEXT</h2><img src="images/black-notes/baffled-note.svg" class="baffled-note"></a>
+        </div> 
+    </div>  
+            
+         <div class="pad100"></div>   
             
             
             
@@ -208,5 +258,5 @@
 
 </script>
     </body>
-     <script src="java/java.js"></script>
+     <script src="java.js"></script>
 </html>

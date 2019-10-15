@@ -16,6 +16,25 @@ function playPause() {
 
 
 
+
+function showNote() {
+  var x = document.getElementById("note1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function dissapear() {
+  var x = document.getElementById("dissapearClick");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 /*
 
 

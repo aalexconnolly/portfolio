@@ -1,13 +1,46 @@
 body .homeicon1:active{
 background-color: #FCF7ED;
 }
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+    padding-left:  234px;
+}
+.lines{
+   width: 499px; 
+}
+#mydivheader {
+  cursor: move;
+  z-index: 10;
+}
+.miore-head{
+      padding: 10px;
+    background-color: black;
+  color: #fff;
+text-align: center;
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+.autopro-a{
+    width: 500px;
+}
+.miore-div{
+    padding-top: 50px;
+}
 .splash1{
  opacity: .8;
     position: absolute;
     margin-left: 10px;
+    width: 200px;
+}
+.overflow{
+    overflow: hidden;
 }
 .drawn-polaroid-icon{
-    width: 260px;
+    width: 220px;
     position: relative;
 }
 .caption{
@@ -17,13 +50,17 @@ background-color: #FCF7ED;
 .blacknote-hide{
     display: none;
 }
+#note1{
+    display:none;
+}
 .autopro-note{
     display: none;
     margin-left: -30px;
 }
 .baffled-note{
     display: none;
-    margin-left: 370px;
+    float: right;
+    margin-right: -30px;
 }
 .previous{
     text-align: left;
@@ -38,12 +75,16 @@ background-color: #FCF7ED;
    text-align: right;
 }
 .homeicon1:hover + .blacknote-hide{
-    display: block;    
+    display: block;  
    /*  transition: top 1s ease-in-out;
   -o-transition: top 1s ease-in-out;
   -ms-transition: top 1s ease-in-out;
   -moz-transition: top 1s ease-in-out;
   -webkit-transition: top 1s ease-in-out;*/
+}
+.homeicon1:hover{
+    max-width: 31vw;
+    transition: 0.5s ease;
 }
 .blacknote-hide{
     max-width: 175px;
@@ -76,6 +117,10 @@ background-color: #FCF7ED;
     padding: 0;
     border: 0;
     margin-top: -100px !important;
+    
+}
+#vidbutton:focus {
+    outline:none;
 }
 
 
@@ -172,11 +217,13 @@ background-color: #FCF7ED;
     padding-top:10px;
     max-width: 68px;
     cursor: url('cursor_click_drawn.png'), default !important;
+    transition: 0.5 ease;
 }
 .paper-work:hover{
     padding-top:10px;
     max-width: 72px;
     cursor: url('cursor_click_drawn.png'), default !important;
+    transition: 0.5 ease;
 }
 .paper-about{
     padding-top:10px;
@@ -204,6 +251,36 @@ background-color: #FCF7ED;
 }
 .newsbar-img{
     width: 110vw;
+    cursor: url('cursor_click_drawn.png'), !important;
+}
+
+/*.note-drawn-1{
+    bottom: 0;
+    position: fixed;
+    padding-bottom: 50px;
+    display: none;
+}
+.newsbar:hover + .note-drawn-1{
+    display: block;
+    
+}
+.smaller{
+    width: 220px;
+}*/
+.note-drawn-1{
+    bottom: 0;
+    position: fixed;
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+    transition: 0.5s ease;
+}
+.newsbar:hover + .note-drawn-1{
+    padding-bottom: 50px;
+    transition: 0.5s ease;
+     margin-bottom: 0px
+}
+.smaller{
+    width: 220px;
 }
 /*//////////////PAPER///////////////////*/
 
@@ -219,7 +296,9 @@ background-color: #FCF7ED;
 .pp-row-01{
     margin-top: -70px;
 }
-
+.click{
+cursor: url('cursor_click_drawn.png'), pointer !important;
+}
 
 
 
@@ -276,6 +355,9 @@ background-color: #FCF7ED;
 .pad100{
     padding-top: 100px;
 }
+.pad50{
+    padding-top: 50px;
+}
  .beige{
         background-color: #FCF7ED;
     }
@@ -300,27 +382,88 @@ background-color: #FCF7ED;
     65%  { transform: translate(0, 25px); }
     to   { transform: translate(0, -0px); }    
 }
+
+
+.floating2 {  
+    animation-name: floating2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
 .homeicon1{
     max-width: 30vw;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.5s ease;
 }
 .homeicon2{
     max-width: 32vw;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
+    transition: 0.5s ease;
 
 }
 .homeicon3{
     max-width: 25vw;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.5s ease;
+}
+.homeicon4{
+    max-width: 28vw;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s ease;
+}
+.homeicon5{
+    max-width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -380px;
+    transition: 0.5s ease;
+}
+.homeicon2:hover{
+    max-width: 34vw;
+    transition: 0.5s ease;
+}
+.homeicon3:hover{
+    max-width: 27vw;
+    transition: 0.5s ease;
+}
+.homeicon4:hover{
+    max-width: 29vw;
+    transition: 0.5s ease;
+}
+.homeicon5:hover{
+    max-width: 32vw;
+    transition: 0.5s ease;
+}
+.home-glyph{
+   margin-left: 50px; 
+}
+.home-auto{
+  margin-left: -100px;  
+}
+.blurhome{
+   margin-left: -100px;  
+}
+.blurhome2{
+   margin-left: 50px;  
 }
 a{
     font-family: 'Roboto Mono', monospace; 
     font-weight: 700;
     color: black !important;
+    text-decoration: none !important;
 }
 .carousel-inner{
     height: 105vh;
@@ -397,6 +540,54 @@ p2{
     margin-right: auto;
     padding-bottom: 50px;
 }
+.baffledicon{
+    max-width: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.baffledicondiv{
+    margin-top: 90px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.minirow2{
+    margin-top: -10px;
+}
+.autoproicon{
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-top: -350px;
+}
+.glyphseticon{
+  max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;  
+}
+.blur2{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+}
+.glyphsetdiv{
+    margin-left: 150px;
+    margin-right: -150px;
+    overflow: none;
+}
+.blur3{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+    margin-top: -50px;
+}
+
+
+
 .polaroidpara{
     max-width: 435px;
 }
@@ -407,12 +598,17 @@ p2{
     opacity: .5;  
 }
 .polaroidicondiv{
-    margin-top: 120px;
+    margin-top: 90px;
     padding-left: 40px;
+}
+.polaroidicondiv-drawn{
+    margin-top: 40px;
+    padding-left: 130px;
 }
 .minirow{
     margin-top: -50px;
 }
+
 .pad35{
     padding-bottom: 35px;
 }
@@ -424,11 +620,143 @@ p2{
 .hide-when-big{
     display: none;
 }
+.baffled-gif{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -2px;
+    margin-bottom: -12px;
+}
 
+.resize{
+    width: 910px;
+}
+iframe:focus {
+  outline: none;
+}
+iframe {
+  outline: none;
+    background-color: white;
+}
+
+#containerworldTime {
+    height: 600px;
+    margin:auto;
+    overflow: hidden;
+    max-width: 912px;
+}
+#containerworldTime iframe {
+
+    margin-left: -140px;
+    margin-top: -95px;
+    -webkit-transform:scale(0.77);
+    -moz-transform:scale(0.77);
+    -o-transform:scale(0.77);
+    -ms-transform:scale(0.77);
+}  
+.bottom{
+    margin-top: -40px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.bottom2{
+    background-color: #B886E9;
+    width: 100%;
+    height: 10px;
+}
 
 /*/////////////////////MEDIA QUERIES 768//////////////////*/
 
 @media only screen and (max-width: 768px){
+    #containerworldTime {
+    height: 400px;
+    margin:auto;
+    overflow: hidden;
+    max-width: 750px;
+}
+#containerworldTime iframe {
+
+    margin-left: -258px;
+    margin-top: -170px;
+    -webkit-transform:scale(0.57);
+    -moz-transform:scale(0.57);
+    -o-transform:scale(0.57);
+    -ms-transform:scale(0.57);
+} 
+    .bottom{
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.bottom2{
+    background-color: #B886E9;
+    width: 100%;
+    height: 10px;
+}
+    #mydiv {
+  position: absolute;
+  z-index: 9;
+    padding-left:  20px;
+}
+.lines{
+   width: 319px; 
+}
+#mydivheader {
+  cursor: move;
+  z-index: 10;
+}
+.miore-head{
+      padding: 10px;
+    background-color: black;
+  color: #fff;
+text-align: center;
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 16px;
+    font-variant: small-caps;
+}
+.autopro-a{
+    width: 320px;
+}
+.miore-div{
+    padding-top: 50px;
+}
+    
+    
+    .autopro-icons-sm{
+        margin-left: -100px;
+    }
+    .autoproicon{
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+    margin-top: -330px;
+}
+.glyphseticon{
+  max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px; 
+}
+.blur2{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+}
+.glyphsetdiv{
+    margin-left: 100px;
+    margin-right: -100px;
+    overflow-x: hidden;
+}
+.blur3{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+    margin-top: -40px;
+}
+
     
     .mobile-size{
         max-width: 95vw;
@@ -454,6 +782,57 @@ p2{
 .homeicon3{
     max-width: 45vw;
 }
+    
+    .homeicon4{
+    max-width: 32vw;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s ease;
+}
+.homeicon5{
+    max-width: 42vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -330px;
+    transition: 0.5s ease;
+}
+    .homeicon1:hover{
+    max-width: 52vw;
+    transition: 0.5s ease;
+}
+.homeicon2:hover{
+    max-width: 52vw;
+    transition: 0.5s ease;
+}
+.homeicon3:hover{
+    max-width: 47vw;
+    transition: 0.5s ease;
+}
+.homeicon4:hover{
+    max-width: 33vw;
+    transition: 0.5s ease;
+}
+.homeicon5:hover{
+    max-width: 41vw;
+    transition: 0.5s ease;
+}
+    .home-glyph{
+   margin-left: 70px; 
+}
+.home-auto{
+  margin-left: -50px;  
+}
+    .blurhome{
+        -50px
+    }
+    .blurhome2{
+        margin-left: 70px; 
+    }
+    
+    
+    
+    
+    
     .blurpolaroid{
     max-width: 50vw;
     margin-left: auto;
@@ -484,6 +863,12 @@ p2{
         margin-left: auto;
         margin-right: auto;
     }
+    .minirow2{
+        max-width: 435px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .polaroidpara{
         margin-left: auto;
         margin-right: auto;
@@ -505,7 +890,7 @@ p2{
     }
     .burger2{
         position: fixed;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 47vw;
     padding-right: 47vw;
     z-index: 1;
@@ -582,6 +967,76 @@ p2{
 /*/////////////////////MEDIA QUERIES 470//////////////////*/
 
 @media only screen and (max-width: 470px){
+
+        .homeicon4{
+    max-width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s ease;
+}
+.homeicon5{
+    max-width: 54vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -215px;
+    transition: 0.5s ease;
+}
+.homeicon4:hover{
+    max-width: 40vw;
+    transition: 0.5s ease;
+}
+.homeicon5:hover{
+    max-width: 55vw;
+    transition: 0.5s ease;
+}
+    .home-glyph{
+   margin-left: 30px; 
+}
+.home-auto{
+  margin-left: -30px;  
+}
+        .blurhome{
+   margin-left: -30px;  
+}
+.blurhome2{
+   margin-left: 30px;  
+}
+    
+    .autopro-icons-sm{
+        margin-left: -100px;
+    }
+    .autoproicon{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+    margin-top: -200px;
+}
+.glyphseticon{
+  max-width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;  
+}
+.blur2{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+}
+.glyphsetdiv{
+    margin-left: 100px;
+    margin-right: -100px;
+    overflow: none;
+}
+.blur3{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+    margin-top: -30px;
+}
+
     .polaroidposter2{
     width: 150px;
     padding: 0;
@@ -627,7 +1082,7 @@ p2{
     }
     .burger2{
         position: fixed;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 43vw;
     padding-right: 43vw;
     z-index: 1;
@@ -661,6 +1116,9 @@ p2{
     .minirow{
         max-width: 335px;
     }
+    .minirow2{
+        max-width: 335px;
+    }
     .polaroidpara{
         max-width: 335px;
         margin-left: auto;
@@ -690,3 +1148,12 @@ p2{
 
 /*/////////////////////MEDIA QUERIES 470//////////////////*/
 
+@media only screen and (max-width: 376px){
+    
+    
+    ALL OF YOUR CHANGES HERE
+    
+    
+    
+    
+}
