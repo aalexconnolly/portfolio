@@ -14,7 +14,22 @@ function playPause() {
 
 
 
-
+function playHide() {
+  var x = document.getElementById("vidbutton2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+function playShow() {
+  var x = document.getElementById("vidbutton2");
+  if (x.style.display === "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 
 function showNote() {

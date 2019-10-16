@@ -4,7 +4,7 @@ background-color: #FCF7ED;
 
 #mydiv {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
     padding-left:  234px;
 }
 .lines{
@@ -67,9 +67,11 @@ text-align: center;
 }
 .prev-polaroid:hover + .autopro-note{
     display: block;
+    margin-bottom: -44px; 
 }
 .next-polaroid:hover + .baffled-note{
     display: block;
+    margin-bottom: -44px;
 }
 .next{
    text-align: right;
@@ -93,7 +95,7 @@ text-align: center;
     z-index: 2;
 }
 .carousel-item{
-    height: 110%;
+    height: 130%;
     padding-top: 100px;
 }   
 .homebody{
@@ -104,26 +106,36 @@ text-align: center;
 }
 #myvid{
    width: 100%;
-    margin-top: 100px;
-    z-index: -1;
+    z-index: 0;
+    margin-top: -280px;
+    
 }
 #vidbutton{
     font-size: 18px;
     font-family: 'Roboto Mono', monospace; 
     font-weight: 700;
     font-variant: small-caps;
+    color: white;
+    background-color: black;
     border: 0;
     text-decoration: none;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 0;
-    margin-top: -100px !important;
-    
+    position: absolute;
+    z-index: 1;  
+    cursor: pointer;
+    left: 50%;
+    margin-left: -35px;
 }
 #vidbutton:focus {
     outline:none;
 }
 
-
+#vidbutton2{
+ /*   margin-top: -200px !important;
+    margin-bottom: 200px;*/
+}
 /*.polaroidposter2:hover {
     width: 400px;
     padding-right: 0px;
@@ -284,6 +296,36 @@ text-align: center;
 }
 /*//////////////PAPER///////////////////*/
 
+.drawn-prev-img{
+    width: 100px;
+}
+.drawn-next-img{
+    width: 100px;
+    float: right;
+}
+.drawn-prev-note{
+   display: none;
+    width: 150px;
+    float: left;  
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.drawn-next-note{
+   display: none;
+    width: 150px;
+    margin-top: 50px;
+    float: right; 
+    margin-right: -140px
+}
+.drawn-prev-img:hover + .drawn-prev-note{
+    display: block;
+} 
+.drawn-next-img:hover + .drawn-next-note{
+    display: block;
+} 
+.drawn-prev-img:hover{
+    margin-left: -130px;
+} 
 
 .note-polaroid-01{
     max-width: 260px;
@@ -317,9 +359,11 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
 }
 .navbox{
     width: 100vw;
-    height: 54px;
+    height: 56px;
     position: fixed;
     z-index: 1;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
 }
 .nav-type:hover{
     font-weight: 700;
@@ -333,25 +377,52 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
     font-weight: 700;
     font-size: 30px;
     font-variant: small-caps;
-    position: fixed
+    position: fixed;
 }
 .div-nav-alex{
-    margin-top: -7px;
+    margin-top: -10px;
     max-width: 100px;
     margin-left: auto;
     margin-right: auto;
 }
+.nav-before{
+    float: right;
+    margin-right: -40px;
+}
+.bold{
+   font-weight: 700; 
+}
 .navbar{
     padding-bottom: 5px;
-    z-index: 2;
+    z-index: 10;
+}
+.nav-about{
+    margin-left: -10px;
 }
 /*/////////////////////NAV//////////////////*/
 
 
 
-
-
-
+.foot1{
+   font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 14px;
+    font-variant: small-caps;
+    text-decoration: none; 
+}
+.foot2{
+    font-family: Helvetica; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+}
+.footer{
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 .pad100{
     padding-top: 100px;
 }
@@ -541,7 +612,7 @@ p2{
     padding-bottom: 50px;
 }
 .baffledicon{
-    max-width: 245px;
+    max-width: 245px
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
@@ -694,7 +765,7 @@ iframe {
 }
     #mydiv {
   position: absolute;
-  z-index: 9;
+  z-index: 10;
     padding-left:  20px;
 }
 .lines{
@@ -702,13 +773,13 @@ iframe {
 }
 #mydivheader {
   cursor: move;
-  z-index: 10;
+  z-index: 1;
 }
 .miore-head{
       padding: 10px;
     background-color: black;
-  color: #fff;
-text-align: center;
+    color: #fff;
+    text-align: center;
     font-family: 'Roboto Mono', monospace; 
     font-weight: 700;
     font-size: 16px;
@@ -881,13 +952,16 @@ text-align: center;
     
 
 .burger{
-        position: fixed;
+    position: fixed;
     padding-top: 10px;
     padding-bottom: 8px;
     padding-left: 47vw;
     padding-right: 47vw;
     z-index: 1;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
     }
+    
     .burger2{
         position: fixed;
     padding-top: 10px;
@@ -902,11 +976,12 @@ text-align: center;
     margin-left: -15px;
     position: fixed;
     z-index: 2;
-    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    margin-top: -2px;
 }
-
 .overlay-content {
     position: relative;
     top: 15%;
@@ -914,6 +989,7 @@ text-align: center;
     text-align: center;
     margin-top: 10px;  
     color: white;
+    
 }
 .overlay a {
     padding: 5px;
@@ -930,7 +1006,7 @@ text-align: center;
     font-variant: small-caps;
     }
     .menubutton{
-        color: white;
+        color: black;
         font-family: 'Roboto Mono', monospace; 
     font-weight: 700;
     font-size: 22px;
@@ -940,7 +1016,7 @@ text-align: center;
     .closebtn{
         color: white !important;
         text-align: center;
-        margin-top: 15vh;
+        margin-top: 13vh;
         position: relative;
         font-family: 'Roboto Mono', monospace; 
         font-weight: 700;
