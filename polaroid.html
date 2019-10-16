@@ -29,15 +29,26 @@
             <div class="row navbar hide-when-small">
                 
                 <div class="col-xl-1 col-lg-1 col-md-2 offset-xl-1 offset-lg-1 offset-md-1">
-                    <a class="nav-type nav-work" href="#">WORK
-                    </a>
+                    <div class="dropdown">    
+            
+          <a class="nav-type nav-work dropbtn" href="#">WORK
+          </a>  
+         
+        <div class="dropdown-content">
+        <img src="images/nav-images/dropdown1.svg">   
+        <a href="autopro.html" class="drop-words1 beige">auto pro</a>
+        <a href="polaroid.html" class="drop-words2 beige">polaroid</a>
+        <a href="baffled.html" class="drop-words3 beige">baffled?</a>
+        <a href="#" class="drop-words4 beige">escape</a>
+        </div>
+            </div> 
                 </div>
                 <div class="col-xl-1 col-lg-1 col-md-1">
                     <a class="nav-type nav-about" href="#">ABOUT
                     </a>
                 </div>
                 <div class="col-xl-5 col-lg-4 col-md-4 div-nav-alex">
-                    <a class="nav-alex" href="#">ALEX
+                    <a class="nav-alex" href="index.html">ALEX
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 nav-before">
@@ -49,12 +60,15 @@
             
             <div id="myNav" class="overlay hide-when-big beige">
                   <div class="overlay-content">
+                      <a href="index.html" class="menubutton2"><div class="menubutton">HOME</div></a>
                     <a href="#" class="menubutton2"><div class="menubutton">WORK</div></a>
                     <a href="#" class="menubutton2"><div class="menubutton">ABOUT</div></a>
-                    <a href="#" class="menubutton2"><div class="menubutton">BEHIND THE SCENES</div></a>
+                    <a href="#" class="menubutton2"><div class="menubutton">BEFORE</div></a>
+                      
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/nav-images/close.svg"></a>
                   </div>
                 
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                    
                 </div>
             
             <div  class="row beige burger">
@@ -82,9 +96,9 @@
             
         <div class="row">
             <div class="col-xl-4 col-lg-5 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-12 col-12 polaroidpara">
-                <h1 class="fontblack pad35 hide-when-small">POLAROID</h1>
+                <h1 class="fontblack pad30 hide-when-small">POLAROID</h1>
                 <h2 class="fontblack">create a title sequence and campaign for a film by the National Film School</h2>
-                <p1 class="fontblack">The main theme of my title was interconnectivity through time. The film revolves around a series of characters connected by ephemera. I illustrated this through pieces of paper that over lap and form the credits however the paper, like the characters, never properly meet. I wanted to capture the atmosphere of a scrapbook, or bits and pieces that get left behind. </p1>
+                <div class="line-p1"><p1 class="fontblack">The main theme of my title was interconnectivity through time. The film revolves around a series of characters connected by ephemera. I illustrated this through pieces of paper that over lap and form the credits however the paper, like the characters, never properly meet. I wanted to capture the atmosphere of a scrapbook, or bits and pieces that get left behind. </p1></div>
             </div>
             
             <div class="col-xl-4 col-lg-5 col-md-5 polaroidicondiv hide-when-small">
@@ -99,15 +113,15 @@
             
             
         <div class="row minirow">
-             <div class="col-xl-2 col-lg-2 col-md-2 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-5">
+             <div class="col-xl-2 col-lg-2 col-md-2 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-5 line-p2">
                  <h3>DISCIPLINES</h3>
                  <p2 class="disciplines">Motion Graphic, Editorial, Print</p2>
             </div>
-            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-4">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-4 line-p2">
                 <h3>TEAM</h3>
                 <p2>Solo Project</p2>
             </div>
-            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-2">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-2 line-p2">
                 <h3>DATE</h3>
                 <p2>12.04.19</p2>
             </div>
@@ -320,7 +334,7 @@
   document.getElementById("myNav").style.height = "0%";
 }  
             function openNav() {
-  document.getElementById("myNav").style.height = "50%";
+  document.getElementById("myNav").style.height = "330px";
 }
 
 </script>

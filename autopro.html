@@ -29,15 +29,27 @@
             <div class="row navbar hide-when-small">
                 
                 <div class="col-xl-1 col-lg-1 col-md-2 offset-xl-1 offset-lg-1 offset-md-1">
-                    <a class="nav-type nav-work" href="#">WORK
-                    </a>
-                </div>
+                      <div class="dropdown">    
+            
+          <a class="nav-type nav-work dropbtn" href="#">WORK
+          </a>  
+         
+        <div class="dropdown-content">
+        <img src="images/nav-images/dropdown1.svg">   
+        <a href="#" class="drop-words1 blue">auto pro</a>
+        <a href="polaroid.html" class="drop-words2 blue">polaroid</a>
+        <a href="baffled.html" class="drop-words3 blue">baffled?</a>
+        <a href="#" class="drop-words4 blue">escape</a>
+        </div>
+            </div> 
+                    
+            </div>
                 <div class="col-xl-1 col-lg-1 col-md-1">
-                    <a class="nav-type nav-about" href="#">ABOUT
+                    <a class="nav-type nav-about" href="about.html">ABOUT
                     </a>
                 </div>
                 <div class="col-xl-5 col-lg-4 col-md-4 div-nav-alex">
-                    <a class="nav-alex" href="#">ALEX
+                    <a class="nav-alex" href="index.html">ALEX
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 nav-before">
@@ -49,11 +61,12 @@
             
             <div id="myNav" class="overlay hide-when-big blue">
                   <div class="overlay-content">
+                      <a href="index.html" class="menubutton2"><div class="menubutton">HOME</div></a>
                     <a href="#" class="menubutton2"><div class="menubutton">WORK</div></a>
-                    <a href="#" class="menubutton2"><div class="menubutton">ABOUT</div></a>
-                    <a href="#" class="menubutton2"><div class="menubutton">BEHIND THE SCENES</div></a>
+                    <a href="about.html" class="menubutton2"><div class="menubutton">ABOUT</div></a>
+                    <a href="#" class="menubutton2"><div class="menubutton">BEFORE</div></a>
                       
-                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/nav-images/close.svg"></a>
                   </div>
                 
                     
@@ -67,6 +80,18 @@
             </div>
                 </div>
             
+            
+<div class="dropdown">
+ <button class="dropbtn">work</button>
+  <div class="dropdown-content">
+      <img src="images/nav-images/dropdown1.svg">       <a href="#" class="drop-words1">polaroid</a>
+        <a href="#" class="drop-words2">auto pro</a>
+        <a href="#" class="drop-words3">baffled?</a>
+        <a href="#" class="drop-words4">escape</a>
+  </div>
+</div>
+            
+      
             
             
             
@@ -89,9 +114,9 @@
             
         <div class="row">
             <div class="col-xl-4 col-lg-5 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-12 col-12 polaroidpara">
-                <h1 class="fontblack pad35 hide-when-small">AUTO PRO</h1>
+                <h1 class="fontblack pad30 hide-when-small">AUTO PRO</h1>
                 <h2 class="fontblack">Create a Type Specimen to showcase the Typeface Auto Pro</h2>
-                <p1 class="fontblack">Auto Pro is incredibly diverse with 24 fonts in the family. My Type Specimen consists of three tabbed sections detailing the specifics of Auto Pro. I created mioré patterns, a 2D animation technique, which animates the tabs as you pull them. I feel this interactive motion best highlights the diversity of the font. To further showcase the vast quantity of typefaces I designed an accompanying glyphset. </p1>
+                <div class="line-p1"><p1 class="fontblack">Auto Pro is incredibly diverse with 24 fonts in the family. My Type Specimen consists of three tabbed sections detailing the specifics of Auto Pro. I created mioré patterns, a 2D animation technique, which animates the tabs as you pull them. I feel this interactive motion best highlights the diversity of the font. To further showcase the vast quantity of typefaces I designed an accompanying glyphset. </p1></div>
             </div>
             
             <div class="col-xl-4 col-lg-5 col-md-5 polaroidicondiv hide-when-small">
@@ -109,15 +134,15 @@
             
             
         <div class="row minirow">
-             <div class="col-xl-2 col-lg-2 col-md-2 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-5">
+             <div class="col-xl-2 col-lg-2 col-md-2 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-5 line-p2">
                  <h3>DISCIPLINES</h3>
                  <p2 class="disciplines">Editorial, Print</p2>
             </div>
-            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-4">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-4 line-p2">
                 <h3>TEAM</h3>
                 <p2>Solo Project</p2>
             </div>
-            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-2">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-2 line-p2">
                 <h3>DATE</h3>
                 <p2>12.04.19</p2>
             </div>
@@ -261,13 +286,13 @@
             
             
 <!-- Draggable DIV -->
-<div id="mydiv">
+<div id="mydiv" class="hide-when-xs">
   <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
   <div id="mydivheader"><div class="miore-head">click and drag me sideways</div><img src="images/autopro/autopro-drag-1.png" class="lines"></div>
   
 </div>   
             
-            <div class="row no-gutters miore-div">
+            <div class="row no-gutters miore-div hide-when-xs">
                 <div class="col-xl-4 offset-xl-2 col-lg-4 offset-lg-2 col-md-5 offset-md-1 col-sm-6 offset-sm-0 col-12 offset-0">
                     <img class="autopro-a"src="images/autopro/autopro-drag-2.png">
                 </div>
@@ -304,11 +329,11 @@
             
     <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-6 previous">
-            <a href="baffled.html"><h2 class="prev-polaroid">PREV</h2><img src="images/black-notes/baffled-note.svg" class="autopro-note"></a>
+            <a href="baffled.html"><h2 class="prev-polaroid">PREV</h2><img src="images/black-notes/baffled-note-2.svg" class="autopro-note"></a>
         </div> 
         
         <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 next">
-            <a href="polaroid.html"><h2 class="next-polaroid">NEXT</h2><img src="images/black-notes/polaroid-note.svg" class="baffled-note"></a>
+            <a href="polaroid.html"><h2 class="next-polaroid">NEXT</h2><img src="images/black-notes/polaroid-note-2.svg" class="baffled-note"></a>
         </div> 
     </div>  
    
@@ -346,7 +371,7 @@
   document.getElementById("myNav").style.height = "0%";
 }  
             function openNav() {
-  document.getElementById("myNav").style.height = "50%";
+  document.getElementById("myNav").style.height = "330px";
 }
 
 </script>

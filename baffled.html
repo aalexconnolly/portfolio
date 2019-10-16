@@ -29,8 +29,20 @@
             <div class="row navbar hide-when-small">
                 
                 <div class="col-xl-1 col-lg-1 col-md-2 offset-xl-1 offset-lg-1 offset-md-1">
-                    <a class="nav-type nav-work" href="#">WORK
-                    </a>
+                    <div class="dropdown">    
+            
+          <a class="nav-type nav-work dropbtn" href="#">WORK
+          </a>  
+         
+        <div class="dropdown-content">
+        <img src="images/nav-images/dropdown1.svg">   
+        <a href="autopro.html" class="drop-words1 purple">auto pro</a>
+        <a href="polaroid.html" class="drop-words2 purple">polaroid</a>
+        <a href="baffled.html" class="drop-words3 purple">baffled?</a>
+        <a href="#" class="drop-words4 purple">escape</a>
+        </div>
+            </div> 
+                    
                 </div>
                 <div class="col-xl-1 col-lg-1 col-md-1">
                     <a class="nav-type nav-about" href="#">ABOUT
@@ -47,14 +59,17 @@
             </div>
             
             
-            <div id="myNav" class="overlay hide-when-big">
+            <div id="myNav" class="overlay hide-when-big purple">
                   <div class="overlay-content">
+                      <a href="index.html" class="menubutton2"><div class="menubutton">HOME</div></a>
                     <a href="#" class="menubutton2"><div class="menubutton">WORK</div></a>
                     <a href="#" class="menubutton2"><div class="menubutton">ABOUT</div></a>
-                    <a href="#" class="menubutton2"><div class="menubutton">BEHIND THE SCENES</div></a>
+                    <a href="#" class="menubutton2"><div class="menubutton">BEFORE</div></a>
+                      
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/nav-images/close.svg"></a>
                   </div>
                 
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                    
                 </div>
             
             <div  class="row purple burger">
@@ -75,7 +90,7 @@
              <div class="hide-when-big">
                  <h1 class="fontblack h1sm">BAFFLED?</h1>
                  <div class="floating polaroidicon2"><img src="images/baffled_icons.png" class="img-fluid"></div>
-                <div class="blur1"><img class="img-fluid" src="images/blur1.png"></div>
+                <div class="blur1"><img class="img-fluid" src="images/blur3.png"></div>
        <!-- <div class="blurpolaroid"><img class="img-fluid" src="images/blur1.png"></div>-->
             </div>
             
@@ -84,12 +99,12 @@
             <div class="col-xl-4 col-lg-5 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-12 col-12 polaroidpara">
                 <h1 class="fontblack pad35 hide-when-small">BAFFLED?</h1>
                 <h2 class="fontblack">design and code a website which aids parents in learning about online safety</h2>
-                <p1 class="fontblack">The main theme of my title was interconnectivity through time. The film revolves around a series of characters connected by ephemera. I illustrated this through pieces of paper that over lap and form the credits however the paper, like the characters, never properly meet. I wanted to capture the atmosphere of a scrapbook, or bits and pieces that get left behind. </p1>
+                <div class="line-p1"><p1 class="fontblack">The main theme of my title was interconnectivity through time. The film revolves around a series of characters connected by ephemera. I illustrated this through pieces of paper that over lap and form the credits however the paper, like the characters, never properly meet. I wanted to capture the atmosphere of a scrapbook, or bits and pieces that get left behind. </p1></div>
             </div>
             
             <div class="col-xl-4 col-lg-5 col-md-5 baffledicondiv hide-when-small">
                  <div class="floating baffledicon"><img src="images/baffled_icons.png" class="img-fluid"></div>
-                <div class="blur1"><img class="img-fluid" src="images/blur1.png"></div>
+                <div class="blur1"><img class="img-fluid" src="images/blur3.png"></div>
        <!-- <div class="blurpolaroid"><img class="img-fluid" src="images/blur1.png"></div>-->
             </div>
             </div>
@@ -99,15 +114,15 @@
             
             
         <div class="row minirow2">
-             <div class="col-xl-2 col-lg-2 col-md-2 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-5">
+             <div class="col-xl-2 col-lg-2 col-md-2 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-5 line-p2">
                  <h3>DISCIPLINES</h3>
                  <p2 class="disciplines">Motion Graphic, Editorial, Print</p2>
             </div>
-            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-4">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-4 line-p2">
                 <h3>TEAM</h3>
                 <p2>Solo Project</p2>
             </div>
-            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-2">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3 col-2 line-p2">
                 <h3>DATE</h3>
                 <p2>12.04.19</p2>
             </div>
@@ -168,36 +183,92 @@
             
             
       <div class="pad100"></div>      
-            
-    <div class="row mobile-size">
+<!-- /////////////////LIVE SITE/////////////////// -->
+    <div class="row mobile-size hide-when-xs">
         <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0 ">
             <img src="images/baffled/browser-top.svg" class="img-fluid">
         </div>
     </div>
+            <div class="row show-when-xs phone-baffled">
+                <div class="col">
+                    <img src="images/baffled/phone.svg" class="phone-img-baffled">
+                </div>
+            </div>
             
-<div class="row mobile-size">
+<div class="row mobile-size move-phone">
         <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0">
             <div id="containerworldTime">
             <iframe src="https://aalexconnolly.github.io/cybersafetesting/home2.html" width="1200" height="750" frameborder="0"></iframe></div>
         </div>
     </div>
             
-<div class="row mobile-size bottom">
+<div class="row mobile-size bottom hide-when-xs">
         <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0">
             <div class="bottom2"></div>
         </div>
     </div>
- 
+ <!-- /////////////////LIVE SITE/////////////////// -->
  <div class="pad100"></div>
   
         
             
             
+  <!-- /////////////////LIVE SITE/////////////////// -->
+    <div class="row mobile-size hide-when-xs">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0 ">
+            <img src="images/baffled/browser-top.svg" class="img-fluid">
+        </div>
+    </div>
+            <div class="row show-when-xs phone-baffled">
+                <div class="col">
+                    <img src="images/baffled/phone.svg" class="phone-img-baffled">
+                </div>
+            </div>
+            
+<div class="row mobile-size move-phone">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0">
+            <div id="containerworldTime">
+            <iframe src="https://aalexconnolly.github.io/cybersafetesting/location.html" width="1200" height="750" frameborder="0"></iframe></div>
+        </div>
+    </div>
+            
+<div class="row mobile-size bottom hide-when-xs">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0">
+            <div class="bottom2"></div>
+        </div>
+    </div>
+ <!-- /////////////////LIVE SITE/////////////////// -->
+ <div class="pad100"></div>
             
             
             
             
+    <!-- /////////////////LIVE SITE/////////////////// -->
+    <div class="row mobile-size hide-when-xs">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0 ">
+            <img src="images/baffled/browser-top.svg" class="img-fluid">
+        </div>
+    </div>
+            <div class="row show-when-xs phone-baffled">
+                <div class="col">
+                    <img src="images/baffled/phone.svg" class="phone-img-baffled">
+                </div>
+            </div>
             
+<div class="row mobile-size move-phone">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0">
+            <div id="containerworldTime">
+            <iframe src="https://aalexconnolly.github.io/cybersafetesting/convo.html" width="1200" height="750" frameborder="0"></iframe></div>
+        </div>
+    </div>
+            
+<div class="row mobile-size bottom hide-when-xs">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0 col-12 offset-0">
+            <div class="bottom2"></div>
+        </div>
+    </div>
+ <!-- /////////////////LIVE SITE/////////////////// -->
+ <div class="pad100"></div>          
 
             
            
@@ -208,11 +279,11 @@
             
     <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-5 offset-xl-2 offset-lg-2 offset-md-1 col-sm-6 col-6 previous">
-            <a href="autopro.html"><h2 class="prev-polaroid">PREV</h2><img src="images/black-notes/autopro-note.svg" class="autopro-note"></a>
+            <a href="autopro.html"><h2 class="prev-polaroid">PREV</h2><img src="images/black-notes/autopro-note-2.svg" class="autopro-note"></a>
         </div> 
         
         <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 next">
-            <a href="#"><h2 class="next-polaroid">NEXT</h2><img src="images/black-notes/baffled-note.svg" class="baffled-note"></a>
+            <a href="#"><h2 class="next-polaroid">NEXT</h2><img src="images/black-notes/baffled-note-2.svg" class="baffled-note"></a>
         </div> 
     </div>  
    
@@ -248,7 +319,7 @@
   document.getElementById("myNav").style.height = "0%";
 }  
             function openNav() {
-  document.getElementById("myNav").style.height = "50%";
+  document.getElementById("myNav").style.height = "330px";
 }
 
             

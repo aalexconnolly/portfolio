@@ -36,8 +36,19 @@
             <div class="row navbar hide-when-small">
                 
                 <div class="col-xl-1 col-lg-1 col-md-2 offset-xl-1 offset-lg-1 offset-md-1">
-                    <a class="nav-type nav-work" href="#">WORK
-                    </a>
+                     <div class="dropdown">    
+            
+                    <a class="nav-type nav-work dropbtn" href="#">WORK
+                      </a>  
+
+                    <div class="dropdown-content">
+                    <img src="images/nav-images/dropdown1.svg">   
+                    <a href="autopro.html" class="drop-words1">auto pro</a>
+                    <a href="polaroid.html" class="drop-words2">polaroid</a>
+                    <a href="baffled.html" class="drop-words3">baffled?</a>
+                    <a href="#" class="drop-words4">escape</a>
+                    </div>
+                    </div> 
                 </div>
                 <div class="col-xl-1 col-lg-1 col-md-1">
                     <a class="nav-type nav-about" href="#">ABOUT
@@ -54,24 +65,26 @@
             </div>
             
             
-            <div id="myNav" class="overlay hide-when-big">
+              <div id="myNav" class="overlay hide-when-big white">
                   <div class="overlay-content">
+                      <a href="index.html" class="menubutton2"><div class="menubutton">HOME</div></a>
                     <a href="#" class="menubutton2"><div class="menubutton">WORK</div></a>
-                    <a href="#" class="menubutton2"><div class="menubutton">ABOUT</div></a>
-                    <a href="#" class="menubutton2"><div class="menubutton">AFTER</div></a>
+                    <a href="about.html" class="menubutton2"><div class="menubutton">ABOUT</div></a>
+                    <a href="#" class="menubutton2"><div class="menubutton">BEFORE</div></a>
+                      
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/nav-images/close.svg"></a>
                   </div>
                 
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                    
                 </div>
             
-            <div  class="row burger2">
+            <div  class="row burger">
             <div class="menu">
                 <div class="hide-when-big" onclick="openNav()">
                     <h4>ALEX</h4>
                 </div>
             </div>
                 </div>
-            
             
             
             
@@ -102,13 +115,13 @@
   <div class="carousel-inner">
     <div class="carousel-item active beige">
         <div class="floating homeicon1"><a href="polaroid.html"><img src="images/polaroid_icon.png" class="img-fluid"></a></div>
-        <div  class="blacknote-hide hide-when-small"><img src="images/black-notes/badboy.svg"></div>
+        <div  class="blacknote-hide hide-when-small"><img src="images/black-notes/badboy-2.svg"></div>
         <div class="blurpolaroid"><img class="img-fluid" src="images/blur1.png"></div>
     </div>
       
     <div class="carousel-item purple">
-        <div class="floating homeicon2"><a href="#"><img src="images/baffled_icons.png" class="img-fluid"></a></div>
-        <div class="blurpolaroid"><img class="img-fluid" src="images/blur1.png"></div>
+        <div class="floating homeicon2"><a href="baffled.html"><img src="images/baffled_icons.png" class="img-fluid"></a></div>
+        <div class="blurpolaroid"><img class="img-fluid" src="images/blur3.png"></div>
     </div>
       
     <div class="carousel-item offwhite">
@@ -179,7 +192,7 @@
   document.getElementById("myNav").style.height = "0%";
 }  
             function openNav() {
-  document.getElementById("myNav").style.height = "50%";
+  document.getElementById("myNav").style.height = "330px";
 }
 
 </script>
