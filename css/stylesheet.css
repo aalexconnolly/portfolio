@@ -363,6 +363,9 @@ text-align: center;
     max-width: 168px;
     cursor: url('cursor_click_drawn.png'), default !important;
 }
+.nudge{
+    margin-left: 22px;
+}
 .paper-alex{
     padding-top:8px;
     max-width: 94px;
@@ -562,6 +565,9 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
 }
 .pad30{
     padding-top: 30px;
+}
+.pad5{
+    padding-top: 5px;
 }
  .beige{
         background-color: #FCF7ED;
@@ -877,6 +883,43 @@ iframe {
 /*/////////////////////MEDIA QUERIES 768//////////////////*/
 
 @media only screen and (max-width: 768px){
+    .splash1{
+    margin-top: -80px;
+    opacity: .8;
+    position: absolute;
+    margin-left: -10px;
+    width: 170px;
+}
+
+.drawn-polaroid-icon{
+    margin-top: -80px;
+    margin-left: -20px;
+    width: 190px;
+    position: relative;
+}
+    .drawn-prev-img{
+    width: 80px;
+        padding-left: 10px;
+}
+    
+.drawn-next-img{
+    width: 80px;
+    float: right;
+    padding-right: 10px;
+}
+    .newsbar{
+    overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    margin-bottom: -10px;
+    margin-left: -15px;
+    z-index: 2;
+}
+.newsbar-img{
+    width: 350vw;
+    cursor: url('cursor_click_drawn.png'), !important;
+}
     .width-about{
         max-width: 440px;
         margin-left: auto;
@@ -1202,17 +1245,24 @@ iframe {
         margin-right: auto;
     }
         .mobile-paper-nav{
-    width: 1000px;
+            width: 1000px;
             margin-left: -200px;
+            position: fixed;
+            z-index: 2;
 }
     .alex-burger{
-        margin-top: -120px;
+        margin-top: 10px;
         width: 90px;
+        position: fixed;
+        z-index: 2;
+        left: 50%;
+        margin-left: -45px;
     }
+   
         .home-glyph{
-
+            
 }
-
+}
 
 
 /*/////////////////////MEDIA QUERIES 768//////////////////*/
@@ -1227,7 +1277,55 @@ iframe {
 /*/////////////////////MEDIA QUERIES 470//////////////////*/
 
 @media only screen and (max-width: 470px){
-    ].width-about{
+.splash1{
+    margin-top: -80px;
+    opacity: .8;
+    position: absolute;
+    margin-left: -30px;
+    width: 115px;
+}
+
+.drawn-polaroid-icon{
+    margin-top: -80px;
+    margin-left: -40px;
+    width: 130px;
+    position: relative;
+}
+    .shadow1{
+        width: 200px;
+    }
+    .collage{
+        margin-left: -20px;
+        margin-right: -20px;
+        width: 400px;
+    }
+    .paper-menu-btn{
+        width: 80px;
+    }
+    .overlay-paper {
+    height: 0%;
+    width: 100vw;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 100;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: -2px;
+}
+    .burger-paper-back{
+        left: 50%;
+        margin-left: -335px;
+        width: 1040px;
+        z-index: 100;
+    }
+    .overlay-content-paper {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+        margin-top: -330px;
+    
+}
+    .width-about{
         max-width: 310px;
         margin-left: auto;
         margin-right: auto;
@@ -1391,6 +1489,26 @@ iframe {
     font-weight: 700;
     font-size: 20px;
     font-variant: small-caps;
+        
+    }
+       .menubutton5{
+        padding-top: 18px;
+        height: 50px;
+        margin-top: 2px;
+          margin-left: 60px;
+          height: 50px;
+    }
+      .menubutton4{
+        padding-top: 18px;
+        height: 50px;
+        margin-top: 12px;
+          margin-left: 60px;
+          height: 50px;
+    }
+    .paper-close{
+        width: 30px;
+        margin-top: 15px;
+          margin-left: 80px;
     }
     h1{
     font-size: 54px;
