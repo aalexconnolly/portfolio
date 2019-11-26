@@ -1,6 +1,12 @@
 body .homeicon1:active{
 background-color: #FCF7ED;
 }
+.paper-dropdown{
+    width: 200px;
+}
+.drop-btn{
+    width: 140px;
+}
 .square{
     width: 42px;
     height: 40px;
@@ -8,6 +14,13 @@ background-color: #FCF7ED;
     margin-top: 10px;
     border-style: solid;
     border-width: 1px;
+}
+
+.next-drawn{
+    width: 110px;
+}
+.prev-drawn{
+    width: 110px;
 }
 .square-1{
     background-color: #8AEAEF; 
@@ -80,6 +93,43 @@ background-color: #FCF7ED;
     margin-left: 1px;
     margin-right: 1px;
 }
+
+.drop-words12{
+    margin-top: -215px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.drop-words22{
+    margin-top: -1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.drop-words32{
+    margin-top: -1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.drop-words42{
+    margin-top: -1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.dropdown-content2 {
+  display: none;
+  position: fixed;
+  min-width: 158px;
+  box-shadow: none;
+  z-index: 1;
+ text-align: center;
+    padding-top: 60px;
+    margin-left: -65px;
+}
+.dropdown-content2 a {
+  color: black;
+  padding: 7px 0px;
+  text-decoration: none;
+  display: block;
+}
 .drop-words1:hover{
     background-color: #BBE2F6;
 }
@@ -96,6 +146,7 @@ background-color: #FCF7ED;
 /*.dropdown-content a:hover {background-color: #ddd;}*/
 
 .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content2 {display: block;}
 
 .dropdown:hover .dropbtn {}
 
@@ -364,7 +415,8 @@ text-align: center;
     cursor: url('cursor_click_drawn.png'), default !important;
 }
 .nudge{
-    margin-left: 22px;
+    margin-left: 24px;
+    margin-top: -6px;
 }
 .paper-alex{
     padding-top:8px;
@@ -789,6 +841,12 @@ p2{
     margin-right: auto;
     opacity: .5;  
 }
+.blur6{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;  
+}
 .glyphsetdiv{
     margin-left: 150px;
     margin-right: -150px;
@@ -802,7 +860,9 @@ p2{
     margin-top: -50px;
 }
 
-
+.paper-para-1{
+   width: 300px; 
+}
 
 .polaroidpara{
     max-width: 435px;
