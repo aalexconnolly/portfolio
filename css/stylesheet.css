@@ -1,3 +1,51 @@
+
+.blacknote-hide-2{
+    max-width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+.blacknote-hide-2{
+    display: none;
+    margin-bottom: -66px;
+}
+.nav-alex:hover + .blacknote-hide-2{
+    display: block;  
+}
+
+.no-margin{
+margin-left: -30px;
+    margin-right: -30px;
+}
+
+#spin {
+  color:black;
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 80px;
+    font-variant: small-caps;
+    line-height: 1.2 !important;
+}
+#spin:after {
+  content:"";
+  animation: spin 20s linear infinite;
+}
+@keyframes spin {
+  0% { content:"HEY GOOD LOOKING"; }
+  10% { content:"WHATSUP PAL"; }
+  20% { content:"HOWDY PARTNER"; }
+  30% { content:"HELLO HANDSOME"; }
+  40% { content:"BONJOUR BABY"; }
+  50% { content: "HOW YOU DOIN'"; }
+  60% { content: "WELCOME TO MY CRIB"; }
+  70% { content: "Hic"; }
+  80% { content: "atque"; }
+  90% { content: "fuga"; }
+}
+.pad10{
+    padding-top:  5px;
+}
+
 body .homeicon1:active{
 background-color: #FCF7ED;
 }
@@ -155,6 +203,7 @@ background-color: #FCF7ED;
   position: absolute;
   z-index: 1;
     padding-left:  234px;
+    padding-top: 160px;
 }
 .lines{
    width: 499px; 
@@ -177,7 +226,9 @@ text-align: center;
     width: 500px;
 }
 .miore-div{
-    padding-top: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: white;
 }
 .splash1{
  opacity: .8;
@@ -198,6 +249,7 @@ text-align: center;
 }
 .blacknote-hide{
     display: none;
+    margin-bottom: -66px;
 }
 #note1{
     display:none;
@@ -267,22 +319,26 @@ text-align: center;
     
 }
 #vidbutton{
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Roboto Mono', monospace; 
     font-weight: 700;
     font-variant: small-caps;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #FCF7ED;
     border: 0;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 4px;
     border: 0;
     position: absolute;
     z-index: 1;  
     cursor: pointer;
     left: 50%;
-    margin-left: -35px;
+    margin-left: -37px;
+    margin-top: 100px;
+    border-style: solid;
+  border-width: 1px;
 }
 #vidbutton:focus {
     outline:none;
@@ -318,16 +374,16 @@ text-align: center;
     transition: .5s ease;
 }
 .fakeposter:hover ~ .polaroidposter2{
-    width: 400px;
+    width: 500px;
     padding-left: 0px;
-    margin-top: -30px;
+    margin-top: -80px;
     transition: .5s ease;
 }
 
 .polaroidposter1:hover {
-    width: 400px;
+    width: 500px;
     padding-right: 0px;
-    margin-top: -30px;
+    margin-top: -80px;
     transition: .5s ease;
 }
 .polaroidposter1:hover + .polaroidposter2{
@@ -336,13 +392,13 @@ text-align: center;
     transition: .5s ease;
 }
 .polaroidposter2{
-    width: 370px;
+    width: 430px;
     padding-left: 28px;
     transition: .5s ease;
     z-index: 2;
 }
 .polaroidposter1{
-    width: 370px;
+    width: 430px;
     padding-right: 28px;
     transition: .5s ease;
 }
@@ -352,11 +408,11 @@ text-align: center;
 
 .polaroidback{
     background-color: #1F1F21;
-    height: 657px;
-    padding-top: 90px;
+    height: 820px;
+    padding-top: 150px;
 }
 .posterfloat{
-    max-width: 750px;
+    max-width: 880px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -515,6 +571,117 @@ text-align: center;
 cursor: url('cursor_click_drawn.png'), pointer !important;
 }
 
+.workbox{
+    border-width: 1px;
+    border-style: solid;
+    height: 205px;
+    margin-bottom: 10px;
+}
+.work-icon-1{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-1-2{
+    width: 150px;
+    padding-top: 55px;
+    transition: 0.5s;
+}
+.work-icon-1:hover{
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-1-2:hover{
+    width: 170px;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+
+
+.work-icon-2{
+    max-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-2-2{
+    width: 130px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+.work-icon-2:hover{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-2-2:hover{
+    width: 150px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+.work-icon-3{
+    max-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-3-2{
+    width: 130px;
+    padding-top: 35px;
+    transition: 0.5s;
+}
+.work-icon-3:hover{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-3-2:hover{
+    width: 150px;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+
+
+
+.work-icon-4{
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-4-2{
+    width: 160px;
+    padding-top: 35px;
+    transition: 0.5s;
+}
+.work-icon-4:hover{
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-4-2:hover{
+    width: 180px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+
 
 
 /*/////////////////////NAV//////////////////*/
@@ -526,6 +693,7 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
     text-decoration: none;
     position: fixed;
     margin-top: 8px;
+    z-index: 10;
 }
 .fixed{
     position: fixed;
@@ -940,9 +1108,23 @@ iframe {
     height: 10px;
 }
 
+
+
+@media only screen and (max-width: 960px){
+.workbox{
+    height: 225px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+}
 /*/////////////////////MEDIA QUERIES 768//////////////////*/
 
 @media only screen and (max-width: 768px){
+    .workbox{
+    height: 202px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
     .splash1{
     margin-top: -80px;
     opacity: .8;
@@ -1050,9 +1232,10 @@ iframe {
 .autopro-a{
     width: 320px;
 }
-.miore-div{
+/*.miore-div{
     padding-top: 50px;
-}
+    background-color: #F1F1F1;
+}*/
     
     
     .autopro-icons-sm{
@@ -1097,7 +1280,9 @@ iframe {
         margin-right: auto;
     }
     .homeicon1:hover + .blacknote-hide{
-    display: none;    
+    display: none;
+    
+    
 }
     .carousel-control-prev{
     font-size: 14px;
@@ -1337,6 +1522,117 @@ iframe {
 /*/////////////////////MEDIA QUERIES 470//////////////////*/
 
 @media only screen and (max-width: 470px){
+
+    .workbox{
+    border-width: 1px;
+    border-style: solid;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.work-icon-1{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-1-2{
+    width: 90px;
+    padding-top: 45px;
+    transition: 0.5s;
+}
+.work-icon-1:hover{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-1-2:hover{
+    width: 100px;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+
+
+.work-icon-2{
+    max-width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-2-2{
+    width: 80px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+.work-icon-2:hover{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-2-2:hover{
+    width: 90px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+.work-icon-3{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-3-2{
+    width: 90px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+.work-icon-3:hover{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-3-2:hover{
+    width: 100px;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+
+
+
+.work-icon-4{
+    max-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-4-2{
+    width: 110px;
+    padding-top: 35px;
+    transition: 0.5s;
+}
+.work-icon-4:hover{
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-4-2:hover{
+    width: 120px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
 .splash1{
     margin-top: -80px;
     opacity: .8;
