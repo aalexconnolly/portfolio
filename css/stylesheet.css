@@ -1,18 +1,56 @@
 
+.paper-work-subtitle{
+   max-width: 115px; 
+}
+.escape-row-one{
+    margin-top: -50px;
+}
+.escape-col{
+    padding-top: 398px;
+}
+.footer-paper-link{
+    max-width: 250px;
+}
+.footer-paper-bar{
+     width: 1600px;
+  margin-bottom: -90px;
+    height: 100px;
+    margin-left: -110px;
+}
 .blacknote-hide-2{
     max-width: 175px;
     margin-left: auto;
     margin-right: auto;
     z-index: 2;
+    
 }
 .blacknote-hide-2{
     display: none;
-    margin-bottom: -66px;
+    margin-bottom: -118px;
+    padding-top: 52px;
+        margin-left: -70px;
 }
+
 .nav-alex:hover + .blacknote-hide-2{
     display: block;  
 }
+.blacknote-hide-3{
+    max-width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    
+}
+.blacknote-hide-3{
+    display: none;
+    margin-bottom: -71px;
+    padding-top: 5px;
+   margin-left: 0px
+}
 
+.colour-boxes:hover + .blacknote-hide-3{
+    display: block;  
+}
 .no-margin{
 margin-left: -30px;
     margin-right: -30px;
@@ -24,23 +62,24 @@ margin-left: -30px;
     font-weight: 700;
     font-size: 80px;
     font-variant: small-caps;
-    line-height: 1.2 !important;
+    line-height: 1.0 !important;
 }
 #spin:after {
   content:"";
-  animation: spin 20s linear infinite;
+  animation: spin 18s linear infinite;
 }
 @keyframes spin {
   0% { content:"HEY GOOD LOOKING"; }
   10% { content:"WHATSUP PAL"; }
-  20% { content:"HOWDY PARTNER"; }
-  30% { content:"HELLO HANDSOME"; }
-  40% { content:"BONJOUR BABY"; }
-  50% { content: "HOW YOU DOIN'"; }
-  60% { content: "WELCOME TO MY CRIB"; }
-  70% { content: "Hic"; }
-  80% { content: "atque"; }
-  90% { content: "fuga"; }
+  20% { content:"HOW YOU DOIN'?"; }
+  30% { content:"WELCOME TO MY WEBSITE"; }
+  40% { content:"I SEE YOU CHECKING ME OUT"; }
+  50% { content: "WHAT'S THE STORY?"; }
+  60% { content: "WELL HELLO THERE"; }
+  70% { content: "TOP OF THE MORNING TO YOU"; }
+  80% { content: "HEY HEY HEY"; }
+  90% { content: "I JUST CAME TO SAY HELLO"; }
+    100% { content: ""; }
 }
 .pad10{
     padding-top:  5px;
@@ -228,7 +267,8 @@ text-align: center;
 .miore-div{
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: white;
+    background-color: #F1F1F1
+        
 }
 .splash1{
  opacity: .8;
@@ -427,15 +467,15 @@ text-align: center;
         cursor: url('cursor_drawn.png'), default !important;
 }
 .paper-nav{
-    width: 120vw;
-    margin-top: -30px;
+    width: 1600px;
+    margin-top: -15px;
+    height: 100px;
 }
 .navbox-paper{
-    width: 100vw;
     height: 50px;
     position: fixed;
     z-index: 1;
-    margin-left: -150px;
+    margin-left: -100px;
 }
 .paper-work{
     padding-top:10px;
@@ -446,7 +486,7 @@ text-align: center;
     margin-top: -3px;
 }
 .paper-work:hover{
-    max-width: 68px;
+    max-width: 68px !important;
     cursor: url('cursor_click_drawn.png'), default !important;
     transition: 0.5s ease;
     margin-left: -12px;
@@ -470,6 +510,12 @@ text-align: center;
     max-width: 168px;
     cursor: url('cursor_click_drawn.png'), default !important;
 }
+.paper-back:hover{
+     max-width:174px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+    transition: 0.5s ease;
+    margin-right: -6px;
+}
 .nudge{
     margin-left: 24px;
     margin-top: -6px;
@@ -479,6 +525,12 @@ text-align: center;
     max-width: 94px;
     padding-left: 14px;
     cursor: url('cursor_click_drawn.png'), default !important;
+}
+.paper-alex:hover{
+     max-width:102px;
+    cursor: url('cursor_click_drawn.png'), default !important;
+    transition: 0.5s ease;
+    margin-left: -4px;
 }
 .newsbar{
     overflow: hidden;
@@ -575,7 +627,20 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
     border-width: 1px;
     border-style: solid;
     height: 205px;
+    width: 205px;
     margin-bottom: 10px;
+}
+.workbox-paper-2{
+    height: 205px;
+    width: 205px;
+    margin-bottom: 10px;
+}
+.workbox-paper{
+    height: 207px;
+    width: 207px;
+}
+.paper-icon-move{
+    margin-top: -200px;
 }
 .work-icon-1{
     max-width: 150px;
@@ -774,6 +839,10 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
     padding-bottom: 20px;
     bottom: 0;
 }
+.footer-paper-div{
+    padding-bottom: 20px;
+    bottom: 0;
+}
 .fixed{
     position: fixed;
 }
@@ -783,8 +852,11 @@ cursor: url('cursor_click_drawn.png'), pointer !important;
 .pad50{
     padding-top: 50px;
 }
+.bottom-20{
+    padding-bottom: 20px;
+}
 .pad30{
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .pad5{
     padding-top: 5px;
@@ -981,7 +1053,9 @@ p2{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
+    
 }
+
 .baffledicondiv{
     margin-top: 90px;
     padding-left: 40px;
@@ -1112,19 +1186,32 @@ iframe {
 
 @media only screen and (max-width: 960px){
 .workbox{
-    height: 225px;
+    height: 245px;
+    width: 245px;
     margin-bottom: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
+}
+    .workbox-paper-2{
+   height: 245px;
+    width: 245px;
+    margin-bottom: 10px;
 }
 }
 /*/////////////////////MEDIA QUERIES 768//////////////////*/
 
 @media only screen and (max-width: 768px){
-    .workbox{
+ .workbox{
+    width: 202px;
     height: 202px;
     margin-bottom: 10px;
     padding-top: 0px;
 }
+.workbox-paper-2{
+    width: 202px;
+    height: 202px;
+    margin-bottom: 10px;
+}
+    
     .splash1{
     margin-top: -80px;
     opacity: .8;
@@ -1156,7 +1243,7 @@ iframe {
   width: 100%;
     margin-bottom: -10px;
     margin-left: -15px;
-    z-index: 2;
+    z-index: 5;
 }
 .newsbar-img{
     width: 350vw;
@@ -1522,12 +1609,38 @@ iframe {
 /*/////////////////////MEDIA QUERIES 470//////////////////*/
 
 @media only screen and (max-width: 470px){
+    #vidbutton{
+    
+    margin-left: -37px;
+    margin-top: -50px;
+    border-style: solid;
+  border-width: 1px;
+}
+    .next-drawn{
+    width: 60px;
+}
+.prev-drawn{
+    width: 60px;
+}
 
     .workbox{
     border-width: 1px;
     border-style: solid;
     height: 150px;
+    width: 150px;
     margin-bottom: 10px;
+}
+    .workbox-paper-2{
+     height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+       .workbox-paper{
+     height: 150px;
+    width: 150px;
+}
+   .paper-icon-move{
+    margin-top: -150px;
 }
 .work-icon-1{
     max-width: 90px;
@@ -1685,6 +1798,7 @@ iframe {
         max-width: 310px;
         margin-left: auto;
         margin-right: auto;
+        max-height: 400px;
     }
     .overlay-content {
     max-width: 200px;
@@ -1931,10 +2045,130 @@ p1{
 
 @media only screen and (max-width: 376px){
     
+      .workbox{
+    border-width: 1px;
+    border-style: solid;
+    height: 130px;
+    width: 130px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+     .workbox-paper-2{
+     height: 130px;
+    width: 130px;
+}
+    .workbox-paper{
+     height: 130px !important;
+    width: 130px;
+}
+   .paper-icon-move{
+    margin-top: -130px;
+}
     
-    ALL OF YOUR CHANGES HERE
     
-    
-    
+.work-icon-1{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-1-2{
+    width: 90px;
+    padding-top: 40px;
+    transition: 0.5s;
+}
+.work-icon-1:hover{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-1-2:hover{
+    width: 100px;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+
+
+.work-icon-2{
+    max-width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-2-2{
+    width: 80px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+.work-icon-2:hover{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-2-2:hover{
+    width: 90px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+.work-icon-3{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-3-2{
+    width: 90px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+.work-icon-3:hover{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-3-2:hover{
+    width: 100px;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+
+
+
+.work-icon-4{
+    max-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-4-2{
+    width: 110px;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+.work-icon-4:hover{
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.work-icon-4-2:hover{
+    width: 120px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
     
 }
